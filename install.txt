@@ -1,7 +1,4 @@
-if [ "$EUID" -eq 0 ]
-  then echo "Please do not run this script as Root! Use it as the pi or dietpi user"
-  exit
-fi
+
 
 pip install -r https://github.com/singapore9/tunnel-gui/raw/test-development/requirements.txt
 
