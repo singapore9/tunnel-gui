@@ -3,12 +3,12 @@ if [ "$EUID" -eq 0 ]
   exit
 fi
 
-pip install -r https://github.com/roelbroersma/tunnel-gui/raw/main/requirements.txt
+pip install -r https://github.com/singapore9/tunnel-gui/raw/test-development/requirements.txt
 
-wget https://github.com/roelbroersma/tunnel-gui/archive/refs/tags/main.zip - "tunnel-gui_main.zip"
-unzip ./tunnel-gui_main.zip
-rm ./tunnel-gui_main.zip
-cd ./tunnel-gui-main
+wget https://github.com/singapore9/tunnel-gui/archive/refs/tags/test-development.zip - "tunnel-gui_test-development.zip"
+unzip ./tunnel-gui_test-development.zip
+rm ./tunnel-gui_test-development.zip
+cd ./tunnel-gui-test-development
 
 echo "Succesfully installed the Tunneling GUI. Check the next steps in README.org file"
 

@@ -4,7 +4,7 @@ Flask GUI
 ** Install via the install script
 If you want to install without git or any additional command, simply run the following one-liner.
 #+begin_src shell
-  wget -q -O - https://github.com/roelbroersma/tunnel-gui/raw/main/install.txt | bash
+  wget -q -O - https://github.com/singapore9/tunnel-gui/raw/test-development/install.txt | bash
 #+end_src
 
 ** How to setup and run
