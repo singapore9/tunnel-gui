@@ -2,7 +2,7 @@
 
 pip install -r https://github.com/singapore9/tunnel-gui/raw/test-development/requirements.txt
 
-wget https://github.com/singapore9/tunnel-gui/archive/refs/tags/test-development.zip - "tunnel-gui_test-development.zip"
+wget https://github.com/singapore9/tunnel-gui/archive/refs/tags/test-development.zip -O "tunnel-gui_test-development.zip"
 unzip ./tunnel-gui_test-development.zip
 rm ./tunnel-gui_test-development.zip
 cd ./tunnel-gui-test-development
